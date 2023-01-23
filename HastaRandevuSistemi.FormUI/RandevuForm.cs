@@ -128,5 +128,10 @@ namespace HastaRandevuSistemi.FormUI
 
 
         }
+
+        private void doktorCombo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            randevuTarihDatePicker.Value = DateTime.Today;
+        }
     }
 }

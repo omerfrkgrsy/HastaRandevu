@@ -141,6 +141,7 @@
             this.doktorCombo.Name = "doktorCombo";
             this.doktorCombo.Size = new System.Drawing.Size(231, 23);
             this.doktorCombo.TabIndex = 45;
+            this.doktorCombo.SelectedIndexChanged += new System.EventHandler(this.doktorCombo_SelectedIndexChanged);
             this.doktorCombo.Format += new System.Windows.Forms.ListControlConvertEventHandler(this.doktorCombo_Format);
             // 
             // label3

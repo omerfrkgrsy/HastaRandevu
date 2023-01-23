@@ -32,6 +32,7 @@ namespace HastaRandevuSistemi.FormUI
 
             var host = CreateHostBuilder().Build();
             ServiceProvider = host.Services;
+
             Application.Run(ServiceProvider.GetRequiredService<Login>());
         }
 

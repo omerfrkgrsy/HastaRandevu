@@ -10,8 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GrapeCity.DataVisualization.Chart" Version="0.4.118" />
-    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
